@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+  background: url(Imagenes/Fondos/fondo7.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.textos{
+  color: white; text-align: justify;
+}
+.barras{
+  height:5px; background-color:#FFFAF0;
+}
+.link{
+  font-size:20px;
+}
+.parrafo{
+  color: white; text-align: justify; font-size: 14px;
+  font-family: monospace;
+}
+
+iframe {
+  border: 0;
+  outline: none;
+  width: 100%;
+  -moz-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.w33 {
+  width: 33%;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}

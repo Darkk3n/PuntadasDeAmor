@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="Imagenes/logo.ico">
+  <link rel="stylesheet" href="site.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function() {
+    $('.fullIzq').click(function() {
+      event.preventDefault();
+      $("#frame-cent").toggleClass('hidden');
+      $("#frame-der").toggleClass('hidden');
+      $("#frame-izq").toggleClass('w100');
+    });
+    $('.fullCent').click(function() {
+      event.preventDefault();
+      $("#frame-cent").toggleClass('w100');
+      $("#frame-der").toggleClass('hidden');
+      $("#frame-izq").toggleClass('hidden');
+    });
+    $('.fullDer').click(function() {
+      event.preventDefault();
+      $("#frame-cent").toggleClass('hidden');
+      $("#frame-der").toggleClass('w100');
+      $("#frame-izq").toggleClass('hidden');
+    });
+  });
+  </script>
+  <title>Venta al Menudeo</title>
+</head>
+<body>
+  <hr class="barras">
+  <table align="center">
+    <tr>
+      <td><img src="Imagenes/logo1.png" alt=""></td>
+      <td><h1 style=" color:#FFFFFF">Que Cobijan al Corazón</h1></td>
+    </tr>
+  </table>
+  <hr class="barras">
+  <center>
+    <div class="link">
+      <a class="fullIzq"  href="#">Accesorios</a>
+      <a class="fullCent"  href="#">Anime</a>
+      <a class="fullDer" href="#">Personalizados</a>
+      <br>
+      <h2 class="textos">Haga clic en un link para expandir. Haga clic nuevamante para contraer</h2>
+    </div>
+  </center>
+  <iframe id="frame-izq" class="w33" src="accesorios.html"  height="620px" frameborder="0"></iframe>
+  <iframe id="frame-cent" class="w33" src="anime.html"  height="620px" frameborder="0"></iframe>
+  <iframe id="frame-der" class="w33" src="personalizados.html"  height="620px" frameborder="0"></iframe>
+</body>
+</html>
