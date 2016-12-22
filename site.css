@@ -7,6 +7,9 @@ body {
   background-size: cover;
 }
 
+.sucursal{
+  color:white;
+}
 .textos{
   color: white; text-align: justify;
 }
