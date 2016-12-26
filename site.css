@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  background: url(Imagenes/Fondos/fondo7.jpg) no-repeat center center fixed;
+  background: url(Imagenes/Fondos/fondo4.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -10,9 +10,10 @@ body {
 .sucursal{
   color:white;
   font-size: 30px;
+  font-family: "osaka_unicode"
 }
 .textos{
-  color: white; text-align: justify;
+  color: white; text-align: justify; font-family:"Malgun Gothic";
 }
 .barras{
   height:5px; background-color:#FFFAF0;
