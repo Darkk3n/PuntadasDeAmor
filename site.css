@@ -8,12 +8,22 @@ body {
 }
 
 .sucursal{
-  color:white;
+  color:#00FF7F;
   font-size: 30px;
   font-family: "osaka_unicode"
 }
+
 .textos{
-  color: white; text-align: justify; font-family:"Malgun Gothic";
+  color:#FFD700; text-align: center; font-family:"Leelawadee";
+  font-size: 24px;
+  font-weight: bold;
+}
+.slogan{
+  color:#FFFFFF; font-family:"Pristina"; font-weight: bold;font-size: 50px;
+}
+
+.contacto{
+  color: white; font-family:Leelawadee;
 }
 .barras{
   height:5px; background-color:#FFFAF0;
@@ -81,3 +91,9 @@ iframe {
 .thumbnail {
   max-width: 50%;
 }
+ul {
+    width: 70%;
+    margin: auto;
+}
+
+  
