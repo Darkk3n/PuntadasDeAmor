@@ -8,7 +8,7 @@ body {
 }
 
 .sucursal{
-  color:#00FF7F;
+  color:#FFD700;
   font-size: 30px;
   font-family: "osaka_unicode"
 }
@@ -91,9 +91,27 @@ iframe {
 .thumbnail {
   max-width: 50%;
 }
+
 ul {
     width: 70%;
     margin: auto;
 }
 
-  
+a{
+  font-family: "Trebuchet MS";
+}
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: blue;
+}
