@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Federo');
 body {
   background-color: black;
   background: url(Imagenes/Fondos/fondo4.jpg) no-repeat center center fixed;
@@ -14,9 +15,10 @@ body {
 }
 
 .textos{
-  color:#FFD700; text-align: center; font-family:"Leelawadee";
+  color:#FFD700; text-align: center;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 600;
+  font-family: Federo;
 }
 .slogan{
   color:#FFFFFF; font-family:"Pristina"; font-weight: bold;font-size: 50px;
